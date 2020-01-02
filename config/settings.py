@@ -81,13 +81,24 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'bookmark',
+#         'USER': 'root',
+#         'PASSWORD': '1212qwerQWER!@',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bookmark',
-        'USER': 'root',
-        'PASSWORD': '1212qwerQWER!@',
-        'HOST': 'localhost',
+        'NAME': 'tyhoonYi$bookmark',
+        'USER': 'tyhoonYi',
+        'PASSWORD': '1212qwer!@',
+        'HOST': 'tyhoonYi.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
 }
